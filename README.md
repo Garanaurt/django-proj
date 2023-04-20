@@ -80,3 +80,21 @@
 
 > poetry run python manage.py createsuperuser
 
+Для создания базы данных описываем её в models.py
+
+Аналог гит для дб:
+
+> poetry run python manage.py makemigrations
+
+> poetry run python manage.py migrate
+
+Связываем urls проекта и аппа
+
+В views.py описываем передачу данных из дб в фронт что и куда
+
+В urls.py описываем по какому пути показывать какой view
+
+
+
+
+
